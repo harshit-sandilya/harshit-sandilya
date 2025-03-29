@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hi there, I'm Harshit 👋
 
-## Getting Started
+I'm an **AI Engineer** with expertise in developing AI-powered solutions, large language models (LLMs), and scalable machine learning systems. I have a strong foundation in deep learning, natural language processing (NLP), and AI infrastructure development.
 
-First, run the development server:
+## 💡 What I Do
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Lead AI teams in designing and deploying **LLM-based systems** and **AI-powered applications**.
+- Architect **scalable AI training frameworks** to optimize performance and efficiency.
+- Develop **high-performance data extraction pipelines** for unstructured text and web data.
+- Build **real-time AI-driven simulations** and **predictive models**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏆 Key Projects
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🚉 RailGuard ([GitHub](https://github.com/harshit-sandilya/RailGuard))
+- Developed a **GPS-based train localization and simulation framework** for AI-powered controllers.
+- Built a **physics-based simulation** using Unity’s PhysX engine to model real-world train dynamics.
+- Implemented a **low-latency controller** for real-time train operations.
 
-## Learn More
+### 🧬 RNA Secondary Structure Prediction ([GitHub](https://github.com/harshit-sandilya/RNA-Secondary-Structure))
+- Developed a **computational model** for predicting RNA secondary structures.
+- Achieved **95.82% accuracy** using Random Forest and **83% using deep learning**.
+- Applied **Deep Q-Networks (DQN)** to reinforcement learning-based structure predictions.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Research & Patents
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **IEEE Publication** ([Read More](https://ieeexplore.ieee.org/abstract/document/10704625))
+- First author on **"Generating Topic Agnostic Conversation with LLM"**.
+- Designed an **LLM-powered conversational model** with low toxicity scores.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **Patent: Offline Road Safety Educational System**
+- Developed a **bilingual chatbot** for road safety using **BERT embeddings**.
+- Deployed on **Raspberry Pi 4B** for **offline real-time assistance**.
+- Integrated a **CPR training mannequin** for emergency response education ([GitHub](https://github.com/harshit-sandilya/Road-Safety)).
