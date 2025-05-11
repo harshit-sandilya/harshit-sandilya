@@ -16,7 +16,7 @@ I'm an **AI Engineer** with expertise in developing AI-powered solutions, large 
 ### 🚉 RailGuard ([GitHub](https://github.com/harshit-sandilya/RailGuard))
 - Developed a **GPS-based train localization and simulation framework** for AI-powered controllers.
 - Built a **physics-based simulation** using Unity’s PhysX engine to model real-world train dynamics.
-- Implemented a **low-latency controller** for real-time train operations.
+- Implemented a **low-latency PPO controller** for real-time train operations.
 
 ### 🧬 RNA Secondary Structure Prediction ([GitHub](https://github.com/harshit-sandilya/RNA-Secondary-Structure))
 - Developed a **computational model** for predicting RNA secondary structures.
