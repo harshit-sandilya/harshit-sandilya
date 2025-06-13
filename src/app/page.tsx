@@ -16,7 +16,10 @@ export default function Home() {
         if (prevProgress >= 100) {
           clearInterval(timer);
           setIsExiting(true);
-          setTimeout(() => router.replace("/desktop"), 500);
+          setTimeout(() => {
+            sessionStorage.setItem("cameFromHome", "true");
+            router.replace("/desktop");
+          }, 500);
           return 100;
         }
         return prevProgress + 1;

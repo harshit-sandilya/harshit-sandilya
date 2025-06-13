@@ -1,13 +1,30 @@
 "use client";
 
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import TaskBar from "@/components/TaskBar";
 import StatusBar from "@/components/StatusBar";
 
 export default function Desktop() {
+  const [applyFadeIn, setApplyFadeIn] = useState(false);
+
+  useEffect(() => {
+    const cameFromHome = sessionStorage.getItem("cameFromHome");
+    if (cameFromHome === "true") {
+      setApplyFadeIn(true);
+      sessionStorage.removeItem("cameFromHome");
+    } else {
+      setApplyFadeIn(false);
+    }
+  }, []);
+
   return (
     <>
-      <div className="h-screen w-screen animate-fade-in relative">
+      <div
+        className={`h-screen w-screen relative ${
+          applyFadeIn ? "animate-fade-in" : "opacity-100"
+        }`}
+      >
         <Image
           src={"/Wallpaper.jpg"}
           alt=""
