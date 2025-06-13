@@ -1,6 +1,8 @@
 "use client";
 
 import Image from "next/image";
+import TaskBar from "@/components/TaskBar";
+import StatusBar from "@/components/StatusBar";
 
 export default function Desktop() {
   return (
@@ -13,6 +15,8 @@ export default function Desktop() {
           height={1536}
           className="w-screen h-screen absolute -z-10"
         />
+        <TaskBar />
+        <StatusBar />
         <div className="relative z-10 h-screen w-screen"></div>
       </div>
       <style jsx>{`

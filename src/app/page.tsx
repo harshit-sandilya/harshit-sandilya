@@ -16,7 +16,7 @@ export default function Home() {
         if (prevProgress >= 100) {
           clearInterval(timer);
           setIsExiting(true);
-          setTimeout(() => router.replace('/desktop'), 500);
+          setTimeout(() => router.replace("/desktop"), 500);
           return 100;
         }
         return prevProgress + 1;
@@ -31,15 +31,15 @@ export default function Home() {
   return (
     <div
       className={`w-screen h-screen overflow-hidden flex justify-center items-center flex-col p-4 transition-opacity duration-500 ease-in-out ${
-        isExiting ? 'opacity-0' : 'opacity-100'
+        isExiting ? "opacity-0" : "opacity-100"
       }`}
     >
       <div className="flex items-center justify-center h-3/4 w-full">
         <Image
           src={"/os-logo.png"}
           alt="Nebula OS"
-          height={1536}
-          width={1338}
+          height={1338}
+          width={1536}
           className="h-96 w-auto"
           objectFit="contain"
         />
