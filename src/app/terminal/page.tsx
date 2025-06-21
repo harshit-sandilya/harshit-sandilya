@@ -66,11 +66,11 @@ export default function Terminal() {
   }, []);
 
   return (
-    <div className="flex flex-col h-screen w-screen bg-black/90 font-mono text-white text-sm">
+    <div className="flex flex-col h-screen w-screen bg-black/90 text-white text-sm font-mono">
       <AppBar name="Terminal" />
       <div
         ref={historyRef}
-        className="flex-grow p-4 overflow-y-auto"
+        className="flex-grow p-4 overflow-y-auto font-mono"
         onClick={() => inputRef.current?.focus()}
       >
         {history.map((item, index) => (

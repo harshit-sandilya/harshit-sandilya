@@ -30,14 +30,14 @@ export default function StatusBar() {
           <span>{time}</span>
           <div className="flex items-center space-x-2">
             <Image
-              src="/battery.png"
+              src="/images/battery.png"
               alt="Battery Status"
               width={512}
               height={512}
               className="h-4 w-4"
             />
             <Image
-              src="/wifi.png"
+              src="/images/wifi.png"
               alt="Network Status"
               width={512}
               height={512}

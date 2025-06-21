@@ -26,7 +26,7 @@ export default function Desktop() {
         }`}
       >
         <Image
-          src={"/Wallpaper.jpg"}
+          src={"/images/Wallpaper.jpg"}
           alt=""
           width={2816}
           height={1536}
