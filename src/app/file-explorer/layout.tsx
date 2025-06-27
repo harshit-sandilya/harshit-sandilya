@@ -8,7 +8,7 @@ export default function FileExplorer({
   children,
   about,
   projects,
-  experience,
+  experiences,
   education,
   skills,
   achievements,
@@ -16,7 +16,7 @@ export default function FileExplorer({
   children: ReactNode;
   about: ReactNode;
   projects: ReactNode;
-  experience: ReactNode;
+  experiences: ReactNode;
   education: ReactNode;
   skills: ReactNode;
   achievements: ReactNode;
@@ -38,13 +38,13 @@ export default function FileExplorer({
       <AppBar name="File Explorer" />
       <div className="flex flex-row h-screen w-screen">
         <Sidebar items={items} selected={selected} setSelected={setSelected} />
-        <div className="flex flex-col h-full w-3/4">
+        <div className="flex flex-col h-full w-3/4 justify-start items-center">
           {selected === "About" ? (
             about
           ) : selected === "Projects" ? (
             projects
           ) : selected === "Experience" ? (
-            experience
+            experiences
           ) : selected === "Education" ? (
             education
           ) : selected === "Skills" ? (

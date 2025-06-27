@@ -2,25 +2,30 @@ import { NextResponse } from "next/server";
 import path from "path";
 import fs from "fs/promises";
 import { ErrorPayload } from "@/types/ErrorPayload";
-import { AboutResponse } from "@/types/AboutPayload";
+import { ProjectResponse } from "@/types/ProjectPayload";
 import { isNodeJSErrnoException } from "@/utils/isNodeJSErrnoException";
 
 export async function GET() {
   try {
-    const filePath = path.join(process.cwd(), "public", "data", "about.json");
+    const filePath = path.join(
+      process.cwd(),
+      "public",
+      "data",
+      "projects.json",
+    );
 
     const fileContent = await fs.readFile(filePath, "utf-8");
 
-    const aboutData = JSON.parse(fileContent) as AboutResponse;
+    const projectData = JSON.parse(fileContent) as ProjectResponse;
 
-    return NextResponse.json<AboutResponse>(aboutData, { status: 200 });
+    return NextResponse.json<ProjectResponse>(projectData, { status: 200 });
   } catch (error: unknown) {
-    console.error("[API Route /api/about] Error fetching about:", error);
+    console.error("[API Route /api/project] Error fetching about:", error);
 
     if (isNodeJSErrnoException(error)) {
       if (error.code === "ENOENT") {
         return NextResponse.json<ErrorPayload>(
-          { message: "About data file not found." },
+          { message: "Project data file not found." },
           { status: 404 },
         );
       }
@@ -33,7 +38,7 @@ export async function GET() {
       );
     } else if (error instanceof Error) {
       return NextResponse.json<ErrorPayload>(
-        { message: "Failed to fetch about data.", details: error.message },
+        { message: "Failed to fetch projects data.", details: error.message },
         { status: 500 },
       );
     } else {

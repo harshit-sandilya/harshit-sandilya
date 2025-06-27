@@ -1,0 +1,95 @@
+{
+  "projects": [
+    {
+      "name": "RailGuard",
+      "description": "A reinforcement learning-based system to optimize train routing and prevent collisions within railway networks. Utilizing a digital twin simulation environment, a Proximal Policy Optimization (PPO) agent was implemented with real time feedback through custom callbacks for logging and debugging. This approach aims to enhance the efficiency and safety of railway operations by enabling intelligent decision-making in dynamic environments.",
+      "startDate": "Feb 2025",
+      "endDate": "May 2025",
+      "link": "https://github.com/harshit-sandilya/RailGuard/"
+    },
+    {
+      "name": "Transformer Neural Architecture Search",
+      "description": "This work leverages Reinforcement Learning (DQN) to optimize the number of heads and layers in a Transformer, balancing efficiency and perplexity. Using PyTorch, DeepSpeed, and Stable Baselines3, the project automates architecture selection to enhance model performance.",
+      "startDate": "Oct 2024",
+      "endDate": "Mar 2025",
+      "link": "https://github.com/harshit-sandilya/NAS.git"
+    },
+    {
+      "name": "RNA Secondary Structure Prediction",
+      "description": "Developed a computational model for RNA secondary structure prediction, utilizing dot-bracket notation for classification. Evaluated the model's performance across various algorithms, achieving accuracies of 95.72% with Extra Trees, 95.82% with Random Forest, 93% with Decision Trees, 83% with deep learning embedding layers, and 70% with Deep Q-Networks (reinforcement learning).",
+      "startDate": "Aug 2024",
+      "endDate": "Mar 2025",
+      "link": "https://github.com/harshit-sandilya/RNA-Secondary-Structure.git"
+    },
+    {
+      "name": "LLM-Injection",
+      "description": "Developed a project titled 'LLM-Injection' to explore and demonstrate indirect prompt injection vulnerabilities in Large Language Models (LLMs). This project builds upon the findings presented in the paper \"Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection\". The repository includes implementations that showcase how adversaries can strategically inject prompts into data sources that LLMs are likely to retrieve during inference, thereby manipulating the model's behavior without direct user interaction.",
+      "startDate": "Nov 2023",
+      "endDate": "Nov 2023",
+      "link": "https://github.com/harshit-sandilya/LLM-Injection"
+    },
+    {
+      "name": "Easy Vahan",
+      "description": "Developed 'EasyVahan,' an application designed to determine the optimal route for electric vehicles (EVs), ensuring access to adequate charging stations en route to the destination. This project was undertaken under the auspices of the Centre of Environment at Malaviya National Institute of Technology (MNIT) Jaipur. My primary contributions encompassed app design and backend integration within a Flutter-Firebase (Flutter-Fire) framework.",
+      "startDate": "Aug 2023",
+      "endDate": "Nov 2023",
+      "link": "https://github.com/harshit-2021ucp1382/EasyVahan.git"
+    },
+    {
+      "name": "Blog Hub Design",
+      "description": "Designed 'BlogHub,' a personal project focused on creating a modern blogging website with an emphasis on contemporary UI aesthetics. The design draws inspiration from leading industry examples, incorporating clean layouts, intuitive navigation, and engaging visual elements.",
+      "startDate": "Apr 2023",
+      "endDate": "Apr 2023",
+      "link": "https://www.figma.com/design/CaiZc1mN8F5zr3AVxE7naj/BlogHub?node-id=0-1&t=2GgWsUhmNT7Bzy32-1"
+    },
+    {
+      "name": "Zine App",
+      "description": "Developed an internal application for Zine Robotics, leveraging the Flutter framework to enhance candidate evaluation processes. Key features include: Firebase Integration: Implemented Firebase Authentication for secure user access and utilized Firebase Realtime Database to facilitate real-time messaging capabilities. Architectural Design: Adopted the Model-View-ViewModel (MVVM) architectural pattern in conjunction with the Provider package for efficient state management across the application. The application was adopted by over 200 users, resulting in an 83% improvement in candidate evaluation accuracy for the internal team.",
+      "startDate": "Feb 2023",
+      "endDate": "Apr 2023",
+      "link": "https://github.com/zine-robotics/zine-app"
+    },
+    {
+      "name": "Dundlod Girls School Website",
+      "description": "Led the development and deployment of the official website for Dundlod Girls' School, Dundlod, utilizing the MERN (MongoDB, Express.js, React.js, Node.js) stack. Collaborated within a three-member team, overseeing the project from UI/UX design through to deployment. The website serves as an informative platform for approximately 500 students, 100 teachers, and visitors, providing easy access to school information, event updates, and resources.",
+      "startDate": "Dec 2022",
+      "endDate": "Mar 2023",
+      "link": "https://github.com/Dundlod-Public-School/dgs-frontend.git"
+    },
+    {
+      "name": "Blitzschlag 2023",
+      "description": "Developed the official website for Blitzschlag 2023, the annual cultural fest of Malaviya National Institute of Technology (MNIT) Jaipur, using the MERN (MongoDB, Express.js, React.js, Node.js) stack. Collaborated with a team of three peers, primarily focusing on front-end development to create an engaging and user-friendly interface. The website provided comprehensive information about the fest, including event schedules, registration details, and real-time updates, enhancing user engagement and facilitating seamless navigation.",
+      "startDate": "Dec 2022",
+      "endDate": "Feb 2023",
+      "link": "https://github.com/harshit-2021ucp1382/Blitz23.git"
+    },
+    {
+      "name": "Line Follower",
+      "description": "Designed and built an autonomous line-following robot capable of solving mazes using the left-hand rule algorithm. The robot features a custom-built infrared (IR) sensor array for line detection, with sensors calibrated to distinguish between the path and background. An Arduino Nano microcontroller manages sensor data and controls the motors, enabling precise navigation through complex maze structures.",
+      "startDate": "Nov 2022",
+      "endDate": "Dec 2022",
+      "link": null
+    },
+    {
+      "name": "Weldright",
+      "description": "Developed a defect classification model using Keras for multi-classification of welding defects as part of a machine learning competition organized by IIT Bombay. The project involved creating a neural network to accurately identify various types of welding defects. Model performance was evaluated using precision, recall, and F1-score metrics. Collaborated with domain experts to refine and enhance the model's capabilities.",
+      "startDate": "Nov 2022",
+      "endDate": "Dec 2022",
+      "link": "https://github.com/harshit-2021ucp1382/WeldRight-Techfest_2022-.git"
+    },
+    {
+      "name": "DSW App Dev",
+      "description": "Developed a React Native application within a one-week timeframe for the DSW competition, focusing on creating select pages to effectively present our project. This rapid development cycle involved designing and implementing key user interfaces and integrating essential functionalities to showcase the application's core features.",
+      "startDate": "Nov 2022",
+      "endDate": "Nov 2022",
+      "link": "https://github.com/harshit-2021ucp1382/dsw_native.git"
+    },
+    {
+      "name": "CarGo",
+      "description": "Developed 'CarGo,' a car rental application using Flutter and Firebase, as part of a three-member team for Codexthon MNIT. The app enables users to browse, book, and manage car rentals seamlessly. It features real-time data synchronization, user authentication, and a responsive UI. Our project successfully advanced past the first round of the competition.",
+      "startDate": "Jul 2022",
+      "endDate": "Jul 2022",
+      "link": "https://github.com/harshit-2021ucp1382/carGo-android-app.git"
+    }
+  ]
+}

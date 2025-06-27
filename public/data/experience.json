@@ -1,0 +1,19 @@
+{
+  "experience": [
+    {
+      "company": "Shodh AI",
+      "logo": {
+        "src": "/images/ShodhAI.png",
+        "alt": "",
+        "height": 360,
+        "width": 300
+      },
+      "position": "Machine Learning Engineer",
+      "startDate": "Jan 2024",
+      "endDate": null,
+      "location": "Jaipur",
+      "description": "Developing and deploying machine learning models for various applications",
+      "technologies": ["Python", "TensorFlow", "PyTorch", "scikit-learn", "Git"]
+    }
+  ]
+}
