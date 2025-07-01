@@ -11,7 +11,7 @@ export async function GET() {
       process.cwd(),
       "public",
       "data",
-      "experience.json",
+      "experiences.json",
     );
 
     const fileContent = await fs.readFile(filePath, "utf-8");
@@ -20,7 +20,7 @@ export async function GET() {
 
     return NextResponse.json<ExperiencePayload>(projectData, { status: 200 });
   } catch (error: unknown) {
-    console.error("[API Route /api/experience] Error fetching about:", error);
+    console.error("[API Route /api/experiences] Error fetching about:", error);
 
     if (isNodeJSErrnoException(error)) {
       if (error.code === "ENOENT") {

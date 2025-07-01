@@ -1,0 +1,21 @@
+{
+  "educations": [
+    {
+      "degree": "Bachelor of Technology",
+      "fieldOfStudy": "Computer Science and Engineering",
+      "CGPA": 8.4,
+      "maxCGPA": 10.0,
+      "university": "Malaviya National Institute of Technology",
+      "graduationYear": 2025,
+      "keyCourses": [
+        "Deep Learning",
+        "Data Structures and Algorithms",
+        "Database Management Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Software Engineering",
+        "Computer Architecture"
+      ]
+    }
+  ]
+}

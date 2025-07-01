@@ -1,7 +1,7 @@
 import { ImagePayload } from "./ImagePayload";
 
 export interface ExperiencePayload {
-  experience: Experience[];
+  experiences: Experience[];
 }
 
 export interface Experience {

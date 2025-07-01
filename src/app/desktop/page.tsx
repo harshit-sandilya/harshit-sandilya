@@ -28,8 +28,8 @@ export default function Desktop() {
         <Image
           src={"/images/Wallpaper.jpg"}
           alt=""
-          width={2816}
-          height={1536}
+          width={7680}
+          height={4320}
           className="w-screen h-screen absolute -z-10"
         />
         <TaskBar />

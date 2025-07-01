@@ -13,12 +13,12 @@ export default function Experiences() {
   useEffect(() => {
     const fetchExperienceData = async () => {
       try {
-        const response = await fetch("/api/experience");
+        const response = await fetch("/api/experiences");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
         const data: ExperiencePayload = await response.json();
-        setExperienceData(data.experience);
+        setExperienceData(data.experiences);
       } catch (error) {
         console.error("Failed to fetch about data:", error);
       }
