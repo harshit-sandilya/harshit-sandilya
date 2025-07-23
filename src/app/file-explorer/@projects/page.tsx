@@ -24,6 +24,7 @@ export default function Projects() {
 
     fetchProjectData();
   }, []);
+
   return (
     <div className="flex flex-col items-center justify-start min-h-full w-full p-4 pb-6 overflow-x-clip overflow-y-auto">
       {projectData ? (

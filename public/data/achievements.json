@@ -1,0 +1,26 @@
+{
+  "achievements": [
+    {
+      "type": "Publication",
+      "title": "Generating Topic-Agnostic Conversations With LLMs",
+      "description": "Introduced a framework that leverages three Large Language Model instances to generate high-quality, low-toxicity, generalised synthetic conversational data achieving 0.27% for Toxicity, 0.04% for Obscene, 0.02% for Threat, 0.05% for Insult",
+      "reference": {
+        "label": "DOI",
+        "data": "https://doi.org/10.1109/ACCESS.2024.3473692",
+        "isLink": true
+      },
+      "github": "https://github.com/harshit-sandilya/topic-agnostic"
+    },
+    {
+      "type": "Patent",
+      "title": "Offline Life Safety Educational System",
+      "description": "Developed a bilingual (Hindi and English) conversational chatbot using BERT embeddings and cosine similarity for answer retrieval, providing real-time educational and road safety assistance in collaboration with Sahayta Jaipur (NGO). Deployed on Raspberry Pi 4B with an integrated CPR training mannequin for offline functionality, handling 100+ predefined queries.",
+      "reference": {
+        "label": "Application No",
+        "data": "202311049973",
+        "isLink": false
+      },
+      "github": "https://github.com/harshit-sandilya/Road-Safety"
+    }
+  ]
+}

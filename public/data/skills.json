@@ -1,0 +1,43 @@
+{
+  "skills": [
+    {
+      "domain": "Programming Languages",
+      "items": ["Python", "C/C++", "JavaScript", "Dart"]
+    },
+    {
+      "domain": "Frameworks & Libraries",
+      "items": [
+        "PyTorch",
+        "TensorFlow",
+        "DeepSpeed",
+        "PyTorch Lightning",
+        "NumPy",
+        "Pandas"
+      ]
+    },
+    {
+      "domain": "Web & App Development",
+      "items": ["React.js", "Node.js", "Express.js", "Flutter", "HTML", "CSS"]
+    },
+    {
+      "domain": "Databases",
+      "items": ["MySQL", "MongoDB", "Firebase", "Supabase"]
+    },
+    {
+      "domain": "Tools & Platforms",
+      "items": ["Git", "GitHub", "Docker", "Postman", "Figma"]
+    },
+    {
+      "domain": "AI & Research Domains",
+      "items": [
+        "Reinforcement Learning",
+        "Deep Learning",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "domain": "Cloud & DevOps",
+      "items": ["Google Cloud", "Vercel"]
+    }
+  ]
+}
