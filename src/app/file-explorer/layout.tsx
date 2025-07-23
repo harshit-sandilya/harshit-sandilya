@@ -12,6 +12,7 @@ export default function FileExplorer({
   education,
   skills,
   achievements,
+  resume,
 }: {
   children: ReactNode;
   about: ReactNode;
@@ -20,6 +21,7 @@ export default function FileExplorer({
   education: ReactNode;
   skills: ReactNode;
   achievements: ReactNode;
+  resume: ReactNode;
 }) {
   const [selected, setSelected] = useState<string>("About");
   const items = [
@@ -52,9 +54,7 @@ export default function FileExplorer({
           ) : selected === "Achievements" ? (
             achievements
           ) : selected === "Resume" ? (
-            <div className="text-center text-gray-500">
-              Resume content will be displayed here.
-            </div>
+            resume
           ) : (
             <div className="text-center text-gray-500">
               Please select an item from the sidebar.
