@@ -39,7 +39,7 @@ export default function Home() {
     >
       <div className="flex items-center justify-center h-3/4 w-full">
         <Image
-          src={"/os-logo.png"}
+          src={"/images/os-logo.png"}
           alt="Nebula OS"
           height={1338}
           width={1536}
